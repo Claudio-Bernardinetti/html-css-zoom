@@ -13,6 +13,11 @@
     --zc-endmwrite: #ee112d;
     --zc-icons: #ffffff;
 }
+
+header {
+    min-width: 1900;
+    max-width: 1900;
+}
 /*Utilitis*/
 
 .icon_top   {
@@ -26,7 +31,28 @@
 
 .header {
     background-color: var(--zc-backg);
+    
     height: 80px;
     width: 100%;
 }
 /*Header*/
+
+.container {
+    background-color: var(--zc-backg);
+    width: 100%;
+    height: 900px;
+    padding: 0 5%;
+    overflow: scroll;
+}
+
+.row {
+    width: calc(100% / 21 * 21);
+}
+
+.cards {
+    background-color: azure;
+    float: left;
+    height: 150px;
+    width: 250px;
+    margin: 7.5px 2.5px;
+}
