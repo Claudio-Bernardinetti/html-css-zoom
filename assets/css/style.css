@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --zc-backg:#000000;
+    --zc-footbr:#222222;
+    --zc-endmeet: #4a4a4a;
+    --zc-pincpal: #69737e;
+    --zc-shares:#4bc800;
+    --zc-endmwrite: #ee112d;
+    --zc-icons: #ffffff;
+}
+/*Utilitis*/
+
+.icon_top   {
+    background-color: var(--zc-endmeet);
+    color: var(--zc-icons);
+    float: right;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: var(--zc-backg);
+    height: 80px;
+    width: 100%;
+}
+/*Header*/
